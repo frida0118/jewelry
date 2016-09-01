@@ -1,0 +1,53 @@
+/*全局布置*/
+body{ font-family:"宋体",Verdana, Arial, Helvetica, sans-serif;text-align:center;margin:0 auto;padding:0;font-size:12px; color:#5d5d5d;height:900px}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote{padding:0; margin:0; color:#5d5d5d; font-family:"宋体",Verdana, Arial, Helvetica, sans-serif;}
+html{ color:#5d5d5d;-webkit-text-size-adjust:none;}
+div{ margin:0 auto;line-height:12px;font-family:"宋体",Verdana, Arial, Helvetica, sans-serif; }
+li{list-style-type:none;}
+img{border:0px;}
+textarea {resize: none;}
+*:focus {outline: none;}/**解决文本输入框在谷歌浏览器下面出现边框问题**/
+input{font-family:"宋体",Verdana, Arial, Helvetica, sans-serif;}
+/*清除浮动*/
+
+.cf{zoom:1;}
+.cf:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+
+ a { text-decoration:none; color:#5d5d5d;font-family:"宋体",Verdana, Arial, Helvetica, sans-serif;}
+ 
+ /*---链接颜色[定义规则，小写a加颜色名称]---*/
+.aRed,a.aRed:link,a.aRed:visited{ color:#9e0000; }
+.aRed1,a.aRed1:link,a.aRed1:visited{color:#bb0000}
+.aOrange,a.aOrange:link,a.aOrange:visited{color:#eb5415; }
+.aOranges,a.aOranges:link,a.aOranges:visited{color:#ee9a0c; }
+.aBlue,a.aBlue:link,a.aBlue:visited{color:#2ba7e2}
+.aWhite,a.aWhite:link,a.aWhite:visited{color:#fff}
+.aBlack,a.aBlack:link,a.aBlack:visited{color:#000;}
+.aGray,a.aGray:link,a.aGray:visited{color:#0195bb;}
+.aGreen,a.aGreen:link,a.aGreen:visited{color:#618f50;}
+.weight{font-weight:bold;}
+.font_yh{font-family:"微软雅黑","宋体",Verdana, Arial, Helvetica, sans-serif;}
+a.hang:link{color:#666666}         /* 未被访问的链接 色 */
+a.hang:visited{color:#666666}     /* 已被访问过的链接 色 */
+a.hang:hover{color:#f89548}		/* 鼠标悬浮在上的链接 色 */
+a.hang:active{color:#f89548}	   /* 鼠标点中激活链接 色 */
+.mar_5{margin-top:5px}
+.mar_10{margin-top:10px}
+img.disp{ display:block}
+.mar_l_5{margin-left:5px; _display:inline}
+.p_b_13{padding-bottom:13px}
+.font_w{ font-weight:bold}
+
+/**首页**/
+.header_bg{background:#000;width:100%;height:40px;padding-top:4px}
+.header{width:1000px;}
+.header .left{float:left;width:127px;}
+.header .right{float:right;}
+.header .right li{float:right;padding-top:12px;margin-left:20px;}
+.header .right li a{color:#fff;}
+.pic{background:#ececec}
+
+.void_and_pl{margin-top:31px}
+
+
+
